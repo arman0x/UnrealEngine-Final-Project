@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \":*)",
+      "Bash(powershell -Command \"[System.IO.File]::ReadAllBytes\\(''c:/Users/User/Documents/Unreal Projects/BP_Task/Content/Mixamo/animation/roll/AM_Roll.uasset''\\).Length\")",
+      "Bash(grep -oE '[A-Za-z_][A-Za-z0-9_]{3,}')",
+      "Bash(xxd 'c:/Users/User/Documents/Unreal Projects/BP_Task/Content/Mixamo/animation/roll/AM_Roll.uasset')",
+      "Bash(xxd 'c:/Users/User/Documents/Unreal Projects/BP_Task/Content/Mixamo/animation/ABP_Rosales.uasset')"
+    ]
+  }
+}
